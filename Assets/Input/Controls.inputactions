@@ -1,5 +1,5 @@
 {
-    "name": "PlayerInput",
+    "name": "Controls",
     "maps": [
         {
             "name": "Player",
@@ -15,7 +15,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Lift",
+                    "name": "LiftRaise",
                     "type": "Button",
                     "id": "60f2c70a-3530-4855-9682-edfabf6d80ff",
                     "expectedControlType": "Button",
@@ -24,9 +24,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Lower",
+                    "name": "LiftLower",
                     "type": "Button",
-                    "id": "3dcc2c3c-7f8c-4dbc-93ac-3b2e75e02ce5",
+                    "id": "f53bceb1-03e8-4069-9484-e1361e4930db",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -140,18 +140,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Lift",
+                    "action": "LiftRaise",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "4080f293-4db7-4760-b311-cebb6c388a5e",
+                    "id": "e7827451-f694-47f6-8e82-e03bffd912b0",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Lower",
+                    "action": "LiftLower",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
