@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 838fea25ccfd3e342be3b096026838b8, type: 3}
   m_Name: Forklift Config
   m_EditorClassIdentifier: 
-  _acceleratingSpeed: 2000
-  _maxWheelTurnAngle: 45
-  _centerMassOffset: -1
-  _steeringSpeed: 150
-  _frictionCoefficient: 200
-  _forkLiftingSpeed: 3
+  _acceleratingSpeed: 300
+  _maxSpeed: 5000
+  _steeringSpeed: 400
+  _maxWheelTurnAngle: 35
+  _maxWheelRotationSpeed: 400
+  _centerMassOffset: {x: 0, y: -1, z: -1.5}
+  _frictionCoefficient: 400
+  _forkLiftingSpeed: 2.5
   _liftMinMaxPositions: {x: 2.5, y: 9}
